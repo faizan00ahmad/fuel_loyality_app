@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Kaleem Petrol",
+    "slug": "kaleem-petrol-rewards",
+    "scheme": "kaleempetrol",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.kaleempetrol.rewards" },
+    "android": {
+      "package": "com.kaleempetrol.rewards",
+      "adaptiveIcon": {
+        "backgroundColor": "#DA291C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": { "bundler": "metro", "output": "single", "name": "Kaleem Petrol", "backgroundColor": "#ffffff" },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      ["expo-camera", { "cameraPermission": "Kaleem Petrol needs the camera to scan QR codes." }]
+    ]
+  }
+}
