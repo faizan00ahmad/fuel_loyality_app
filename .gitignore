@@ -43,3 +43,6 @@ yarn-error.*
 # local tooling
 .claude/
 out/
+
+.vercel/
+.vercel
